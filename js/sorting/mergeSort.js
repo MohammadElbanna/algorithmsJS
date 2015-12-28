@@ -33,7 +33,7 @@ function merge (arr, leftArray, rightArray) {
         arrPointer ++;
     }
     
-    // no either the left array or the right array has remaining items
+    // now either the left array or the right array has remaining items
     while(leftPointer < leftArray.length) {
         arr[arrPointer] = leftArray[leftPointer];
         leftPointer ++;
